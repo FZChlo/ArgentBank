@@ -10,18 +10,6 @@ MoneyBank is a completely free app that makes managing your bank account easy. O
 
 **Database:** MongoDB
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-### Front end (for development mode)
-
-`REACT_APP_API_URL=http://localhost:3001/api/v1`
-
-### Back end (for development mode)
-
-`DATABASE_URL="mongodb://127.0.0.1:27017/argentBankDB"`
-
 ## Installation
 
 **Install MoneyBank**
