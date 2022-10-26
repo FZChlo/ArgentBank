@@ -1,5 +1,7 @@
+// Creation des etats intitiaux pour Authentification & User
+
 export const initialStateAuthentification = {
-	token: "",
+	token: localStorage.getItem("token"),
 	error: "",
 	remember: false,
 };

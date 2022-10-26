@@ -3,13 +3,13 @@
 
 .profile {
 	background: rgb(18, 0, 43);
-	min-height: 100vh;
+	padding-bottom: 5%;
 	&__section {
 		display: grid;
 		gap: 15px;
 		margin: 0 2rem;
-		max-width: 900px;
-		padding-bottom: 15px;
+		max-width: 1500px;
+		padding-bottom: 25px;
 	}
 	&__header {
 		align-items: center;

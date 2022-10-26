@@ -1,5 +1,7 @@
-import { fetchUserSuccess, fetchUserError } from "../actions";
+// Fetch du User
 
+import { fetchUserSuccess, fetchUserError } from "../actions";
+// process.env renvoie un objet contenant l'environnement de l'utilisateur
 const api = process.env.REACT_APP_API_URL;
 const url = `${api}/user`;
 

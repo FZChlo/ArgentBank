@@ -1,3 +1,5 @@
+// Creation des const d'action appelées dans reducers.js
+
 export const TOKEN_SUCCESS = "TOKEN_SUCCESS";
 export const TOKEN_ERROR = "TOKEN_ERROR";
 export const USER_SUCCESS = "USER_SUCCESS";
@@ -34,6 +36,7 @@ export const fetchUserError = (userError) => ({
 });
 
 export const userLogout = () => {
+	localStorage.clear()
 	return {
 		type: USER_LOGOUT,
 		user: {},

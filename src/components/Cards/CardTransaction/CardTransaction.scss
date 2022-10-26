@@ -8,6 +8,8 @@
 	justify-content: space-between;
 	padding: 1.5rem;
 	text-align: left;
+	height: 130px;
+	margin-top: 20px;
 	&__title {
 		margin: 0;
 		padding: 0;
@@ -20,7 +22,8 @@
 		font-weight: bold;
 	}
 	&__btn {
-		margin-top: 15px;
+		float:right;
+		margin-top: -55px;
 		@include button(primary--outlined);
 	}
 }

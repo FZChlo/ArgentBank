@@ -10,7 +10,8 @@ import {
 } from "./actions";
 
 const initialState = { ...initialStateAuthentification, ...initialStateUser };
-
+// Creation de userAuthentification et des return selon les sitatuations
+// Le réducteur filtre l'action à l'aide d'une instruction switch activant le type d'action
 export const userAuthentification = (state = initialState, action) => {
 	switch (action.type) {
 		case TOKEN_SUCCESS: {

@@ -1,9 +1,11 @@
 import { fetchTokenSuccess, fetchTokenError } from "../actions";
 
+// Fetch du token token 
 const api = process.env.REACT_APP_API_URL;
 const url = `${api}/user`;
 
 export const fetchToken = (query) => {
+	//Dispatch( cf app.js)
 	return (dispatch) => {
 		return fetch(`${url}/${query.endPoint}`, {
 			method: query.method,
